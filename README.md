@@ -58,11 +58,6 @@ We welcome any contributions and suggestions! If you’d like to contribute:
 3. Commit and push your changes.
 4. Open a Pull Request for review.
 
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute this project as you wish.
 
 ---
 
