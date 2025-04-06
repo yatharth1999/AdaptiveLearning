@@ -1,18 +1,15 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using UnityEngine;
 using TMPro;
-using UnityEngine;
 
 public class BalonMovement : MonoBehaviour
 {
     public float speed;
-
     public TextMeshPro answerText;
-
-    //[System.NonSerialized]
+    
     public int BallonAnswer = 0;
-
-    // Update is called once per frame
+    public bool isHit = false;
+    
+    // Called once per frame
     void Update()
     {
         Vector2 temp = transform.position;
@@ -28,9 +25,35 @@ public class BalonMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //if (collision.gameObject.tag == "car")
-        //{
-        //    GameObject.Destroy(gameObject);
-        //}
+        // Debug.Log("Collision detected with: " + collision.gameObject.name);
+        // If the balloon collides with the car
+        if (collision.gameObject.CompareTag("car"))
+        {
+            isHit = true;
+            // Debug.Log("Balloon collided with car: " + collision.gameObject.name);
+            // Get a reference to AskControl (assuming there's only one in the scene)
+            AskControl askControl = FindObjectOfType<AskControl>();
+
+            // Check if this balloon's answer matches askControl's rightAnswer
+            bool isCorrect = (BallonAnswer == askControl.rightAnswer);
+
+            if (isCorrect)
+            {
+                Debug.Log("Correct answer! Balloon's answer: " + BallonAnswer);
+                // Color the balloon green
+                GetComponent<SpriteRenderer>().color = Color.green;
+                
+                
+            }
+            else
+            {
+                // Color the balloon red
+                GetComponent<SpriteRenderer>().color = Color.red;
+                
+            }
+
+            // (Optional) Destroy balloon after a short delay
+            Destroy(gameObject, 0.1f);
+        }
     }
 }

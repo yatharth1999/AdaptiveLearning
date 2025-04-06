@@ -168,7 +168,7 @@ TextureImporter:
       213: -4820487270976498853
     second: Windows_54
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -185,9 +185,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -196,9 +199,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -219,10 +222,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -234,6 +242,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -246,6 +255,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -258,6 +268,46 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1428,9 +1478,64 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Windows_0: -2712965080552235136
+      Windows_1: -6202620245911416931
+      Windows_10: 6952533603709256229
+      Windows_11: 7623202017060836286
+      Windows_12: 2373180838748359268
+      Windows_13: 2557580305063876822
+      Windows_14: 4898801646686679027
+      Windows_15: 3924496672111592863
+      Windows_16: -4290862330766614052
+      Windows_17: 5656299820432990787
+      Windows_18: -2072416266485079537
+      Windows_19: -4008713283959896425
+      Windows_2: -6677279742194608663
+      Windows_20: 8732018472867795083
+      Windows_21: -7360247758398672853
+      Windows_22: -8476310321111939304
+      Windows_23: -8227149906472366451
+      Windows_24: -6879206147899864493
+      Windows_25: 1913425252321511326
+      Windows_26: 2819027839890318867
+      Windows_27: 3615106597314717051
+      Windows_28: 2143939760708950422
+      Windows_29: 8740618902415213645
+      Windows_3: -7500360871514107123
+      Windows_30: -2035172448893234033
+      Windows_31: 5051851805745486178
+      Windows_32: -6070259340843427594
+      Windows_33: 7436417782252467017
+      Windows_34: 5427223688068064897
+      Windows_35: -7605813849206081236
+      Windows_36: 1587400088514877187
+      Windows_37: -5413046417812492632
+      Windows_38: -534036128405053622
+      Windows_39: -3137716278263304016
+      Windows_4: -4853824523064533287
+      Windows_40: -5616113843002912617
+      Windows_41: -9082749012352545364
+      Windows_42: 7630508787456814367
+      Windows_43: -4721629468099289116
+      Windows_44: -7932194453839216733
+      Windows_45: -6123597838303684737
+      Windows_46: -1026924269489046172
+      Windows_47: 1019740943051424203
+      Windows_48: 6055727183000991421
+      Windows_49: 8106998415928726589
+      Windows_5: -753431888473554220
+      Windows_50: -2523580044350721496
+      Windows_51: -5304137365759917043
+      Windows_52: -5241223240880923958
+      Windows_53: 6838933084595983179
+      Windows_54: -4820487270976498853
+      Windows_6: 7250032703235838348
+      Windows_7: -311745519279340015
+      Windows_8: -4184484094318694091
+      Windows_9: 3016992840622293049
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

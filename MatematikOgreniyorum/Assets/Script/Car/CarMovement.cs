@@ -13,6 +13,15 @@ public class CarMovement : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            up();
+        }
+        
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            down();
+        }
         Boundry();
     }
 
