@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CarScene.unity
     guid: 45809d596bcc39941bee1142848236b1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TwoPlayerScene.unity
     guid: fbbe15c6c7ba8b4478206cd8ea96dd14
   m_configObjects: {}
