@@ -10,8 +10,5 @@ public class MainScript : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
-    public void GameTwoPlayer()
-    {
-        SceneManager.LoadScene(2);
-    }
+   
 }

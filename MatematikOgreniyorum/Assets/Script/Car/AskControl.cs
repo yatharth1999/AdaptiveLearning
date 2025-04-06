@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-// using MoodMe;
+using MoodMe;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -328,7 +328,7 @@ public class AskControl : MonoBehaviour
     public void addScore(int score)
     {
 
-        // emotionScore = EmotionsManager.EmotionIndex;
+         emotionScore = EmotionsManager.EmotionIndex;
         Debug.Log("Emotion Score: " + emotionScore);
 
         Score += score;
